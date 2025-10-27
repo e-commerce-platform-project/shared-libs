@@ -1,4 +1,4 @@
-package ru.ivanov.ecommerceplatformproject.common.dto.request;
+package ru.ivanov.ecommerceplatformproject.sharedlibs.dto.request;
 
 public record SellerRegistrationRequest(
     String email,

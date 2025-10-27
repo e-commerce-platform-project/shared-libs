@@ -1,4 +1,4 @@
-package ru.ivanov.ecommerceplatformproject.common.dto.response;
+package ru.ivanov.ecommerceplatformproject.sharedlibs.dto.response;
 
 import java.time.LocalDateTime;
 

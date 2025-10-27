@@ -1,4 +1,4 @@
-package ru.ivanov.ecommerceplatformproject.common.dto;
+package ru.ivanov.ecommerceplatformproject.sharedlibs.dto;
 
 import java.math.BigDecimal;
 import java.util.UUID;

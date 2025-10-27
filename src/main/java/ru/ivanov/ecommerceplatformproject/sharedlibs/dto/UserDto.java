@@ -1,4 +1,4 @@
-package ru.ivanov.ecommerceplatformproject.common.dto;
+package ru.ivanov.ecommerceplatformproject.sharedlibs.dto;
 
 import java.io.Serializable;
 import java.util.List;

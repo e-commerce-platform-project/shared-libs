@@ -1,4 +1,4 @@
-package ru.ivanov.ecommerceplatformproject.common.dto;
+package ru.ivanov.ecommerceplatformproject.sharedlibs.dto;
 
 import java.util.List;
 import java.util.UUID;
