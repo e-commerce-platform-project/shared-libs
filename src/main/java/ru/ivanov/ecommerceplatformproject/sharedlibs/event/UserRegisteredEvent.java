@@ -1,9 +1,13 @@
 package ru.ivanov.ecommerceplatformproject.sharedlibs.event;
 
-public record EmailVerificationCodeCreatedEvent(
+import lombok.Builder;
+
+@Builder
+public record UserRegisteredEvent(
+        String userId,
         String firstName,
         String lastName,
         String email,
-        String code
+        String verificationCode
 ) {
 }
