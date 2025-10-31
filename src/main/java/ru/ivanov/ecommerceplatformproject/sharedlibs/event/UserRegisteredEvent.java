@@ -7,7 +7,6 @@ public record UserRegisteredEvent(
         String userId,
         String firstName,
         String lastName,
-        String email,
-        String verificationCode
+        String email
 ) {
 }
