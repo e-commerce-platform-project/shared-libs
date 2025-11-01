@@ -1,6 +1,7 @@
 package ru.ivanov.ecommerceplatformproject.sharedlibs.dto;
 
 import java.io.Serializable;
+import java.time.LocalDate;
 import java.util.List;
 import java.util.UUID;
 
@@ -9,6 +10,11 @@ public record UserDto(
         String firstName,
         String lastName,
         String email,
-        List<String> roles
-) implements BaseDto, Serializable {
+        String phone,
+        String passportSeries,
+        String passportNumber,
+        LocalDate passportIssueDate,
+        String passportIssuedBy,
+        List<DeliveryAddressDto> deliveryAddresses
+) implements Serializable {
 }
