@@ -2,7 +2,6 @@ package ru.ivanov.ecommerceplatformproject.sharedlibs.dto.response;
 
 import java.time.LocalDateTime;
 
-
 public record ApiResponse(
         String message,
         boolean success,
