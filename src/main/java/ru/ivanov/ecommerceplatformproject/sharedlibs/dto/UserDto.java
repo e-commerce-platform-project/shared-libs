@@ -11,10 +11,6 @@ public record UserDto(
         String lastName,
         String email,
         String phone,
-        String passportSeries,
-        String passportNumber,
-        LocalDate passportIssueDate,
-        String passportIssuedBy,
         List<DeliveryAddressDto> deliveryAddresses
 ) implements Serializable {
 }

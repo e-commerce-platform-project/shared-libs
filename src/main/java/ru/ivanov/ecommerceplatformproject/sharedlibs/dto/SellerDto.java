@@ -7,5 +7,5 @@ public record SellerDto(
         UUID id,
         String email,
         List<String> roles
-) implements BaseDto {
+) {
 }

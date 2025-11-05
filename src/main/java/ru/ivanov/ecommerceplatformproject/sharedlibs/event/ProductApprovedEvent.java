@@ -1,14 +1,17 @@
 package ru.ivanov.ecommerceplatformproject.sharedlibs.event;
 
+import ru.ivanov.ecommerceplatformproject.sharedlibs.enums.ProductCategory;
+
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.UUID;
 
-public record ProductUpdatedEvent(
+public record ProductApprovedEvent(
         UUID productId,
+        UUID sellerId,
         String name,
         String description,
-        String category,
+        ProductCategory category,
         String brand,
         BigDecimal price,
         String mainImageUrl,
