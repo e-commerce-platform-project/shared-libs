@@ -26,6 +26,6 @@ public enum ProductCategory {
             }
         }
         // todo
-        throw new IllegalArgumentException("no category find by name %s".formatted(name));
+        throw new IllegalArgumentException("no productCategory find by ProductName %s".formatted(name));
     }
 }

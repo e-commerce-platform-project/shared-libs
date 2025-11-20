@@ -10,8 +10,6 @@ public record SellerProductDto(
         String description,
         String category,
         BigDecimal price,
-        int stockQuantity,
-        int reservedQuantity,
         String mainImageUrl,
         List<String> additionalImageUrls
         ) {

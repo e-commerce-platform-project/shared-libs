@@ -7,7 +7,6 @@ public record CartProductDto(
         UUID id,
         String name,
         BigDecimal price,
-        int availableQuantity,
         String mainImageURL
 ) {
 }
